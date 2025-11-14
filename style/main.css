@@ -1,1 +1,56 @@
 @import url(./font.css);
+
+/* O'zgaruvchilar */
+
+:root {
+--MB: "MB", sans-serif;
+--MM: "MM", sans-serif;
+--MR: "MR", sans-serif;
+--primary: #000;
+--secondary: #fff;
+--daark-gray: #282828;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.page__header {
+    background-color: var(--dark-gray);
+    padding-bottom: 6px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__link {
+    color: var(--secondary);
+    font-family: var(--MB);
+    font-style: 20px;
+    line-height: 24px;
+}
+
+.user__action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
